@@ -1,4 +1,4 @@
-import 'package:cv_online/src/pages/home_page.dart';
+import 'package:cv_online/src/app.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: ''),
+      home: const App(title: 'Currículo Online'),
     );
   }
 }
